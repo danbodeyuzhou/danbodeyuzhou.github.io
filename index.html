@@ -1,1 +1,57 @@
-<h1>szy</h1>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>简单的小游戏</title>
+  <style>
+    #box {
+      width: 50px;
+      height: 50px;
+      background-color: red;
+      position: absolute;
+    }
+  </style>
+</head>
+<body>
+  <div id="box"></div>
+
+  <script>
+    // 获取 box 元素
+    const box = document.getElementById('box');
+
+    // 初始化 box 的位置
+    let x = 0;
+    let y = 0;
+
+    // 监听键盘按下事件
+    document.addEventListener('keydown', moveBox);
+
+    function moveBox(event) {
+      const speed = 10; // 移动速度
+
+      // 向左移动
+      if (event.key === 'ArrowLeft') {
+        x -= speed;
+      }
+
+      // 向右移动
+      if (event.key === 'ArrowRight') {
+        x += speed;
+      }
+
+      // 向上移动
+      if (event.key === 'ArrowUp') {
+        y -= speed;
+      }
+
+      // 向下移动
+      if (event.key === 'ArrowDown') {
+        y += speed;
+      }
+
+      // 更新 box 的位置
+      box.style.left = x + 'px';
+      box.style.top = y + 'px';
+    }
+  </script>
+</body>
+</html>
