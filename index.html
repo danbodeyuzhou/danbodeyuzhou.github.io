@@ -1,23 +1,21 @@
 <!DOCTYPE html>
-<html lang="zh">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>用户信息</title>
-</head>
-<body>
-    <h1>浏览器信息</h1>
-    <p id="browserInfo"></p>
-    <script>
-        var browserInfo = "浏览器类型：" + navigator.appName + "
-" +
-            "操作系统：" + navigator.platform + "
-" +
-            "屏幕分辨率：" + navigator.screenResolution + "
-" +
-            "语言设置：" + navigator.language + "
-";
-        document.getElementById("browserInfo").innerHTML = browserInfo;
-    </script>
-</body>
+<html>
+  <head>
+    <style>
+      html,
+      body,
+      iframe {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <iframe src="https://www.baidu.com" frameborder="0" allowfullscreen></iframe>
+  </body>
 </html>
