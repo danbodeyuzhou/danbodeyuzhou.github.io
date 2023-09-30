@@ -1,21 +1,17 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <style>
-      html,
-      body,
-      iframe {
-        margin: 0;
-        padding: 0;
-        height: 100%;
-        width: 100%;
-        position: absolute;
-        top: 0;
-        left: 0;
+    <meta charset="UTF-8">
+    <title>PushPlus发送消息</title>
+    <script>
+      function addContentParam() {
+        var currentTime = new Date().toISOString();
+        var url = "https://www.pushplus.plus/send?token=4b92e83a62224468a8726f0ffdcfb44e&title=123&template=html&content=" + currentTime;
+        window.location.href = url;
       }
-    </style>
+    </script>
   </head>
   <body>
-    <iframe src="https://www.pushplus.plus/send?token=4b92e83a62224468a8726f0ffdcfb44e&title=%E8%AE%BF%E9%97%AE%E6%8F%90%E9%86%92&content=123&template=html" frameborder="0" allowfullscreen></iframe>
+    <button onclick="addContentParam()">发送消息</button>
   </body>
 </html>
