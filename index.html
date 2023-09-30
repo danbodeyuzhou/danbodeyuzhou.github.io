@@ -1,11 +1,23 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <script type="text/plain">
-      // 禁用用户脚本
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>用户信息</title>
+</head>
+<body>
+    <h1>浏览器信息</h1>
+    <p id="browserInfo"></p>
+    <script>
+        var browserInfo = "浏览器类型：" + navigator.appName + "
+" +
+            "操作系统：" + navigator.platform + "
+" +
+            "屏幕分辨率：" + navigator.screenResolution + "
+" +
+            "语言设置：" + navigator.language + "
+";
+        document.getElementById("browserInfo").innerHTML = browserInfo;
     </script>
-  </head>
-  <body>
-    <!-- 页面内容 -->
-  </body>
+</body>
 </html>
