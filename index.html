@@ -1,17 +1,34 @@
 <!DOCTYPE html>
-<html>
-  <head>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
-    <title>PushPlus发送消息</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>访问PushPlus</title>
+</head>
+<body>
+    <input type="text" id="inputText" placeholder="请输入内容">
+    <button onclick="sendRequest()">确定</button>
+    <div id="result"></div>
+
     <script>
-      function addContentParam() {
-        var currentTime = new Date().toISOString();
-        var url = "https://www.pushplus.plus/send?token=4b92e83a62224468a8726f0ffdcfb44e&title=123&template=html&content=" + currentTime;
-        window.location.href = url;
-      }
+        function sendRequest() {
+            const inputText = document.getElementById('inputText').value;
+            if (inputText.length >= 3 && inputText.length <= 100) {
+                const url = `https://www.pushplus.plus/send?token=4b92e83a62224468a8726f0ffdcfb44e&title=123&template=html&content=${encodeURIComponent(inputText)}`;
+
+                fetch(url)
+                    .then(response => response.json())
+                    .then(data => {
+                        document.getElementById('result').innerHTML = `消息已成功发送，返回参数参数：${data.msg}`;
+                    })
+                    .catch(error => {
+                        document.getElementById('result').innerHTML = `消息发送失败，返回参数参数：${data.msg}`;
+                    });
+            } else {
+                alert('限制为3-100个字符哦');
+            }
+        }
     </script>
-  </head>
-  <body>
-    <button onclick="addContentParam()">发送消息</button>
-  </body>
+
+</body>
 </html>
