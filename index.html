@@ -1,34 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>信息发送</title>
+  <title>发送消息</title>
 </head>
 <body>
-    <input type="text" id="inputText" placeholder="请输入内容">
-    <button onclick="sendRequest()">确定</button>
-    <div id="result"></div>
+    <h1>发送消息</h1>
+  <form id="messageForm">
+    <label for="title">标题:</label>
+    <input type="text" id="title" name="title"><br><br>
+    
+    <label for="text">文本:</label><br>
+    <textarea id="text" name="text" required></textarea><br><br>
+    
+    <label for="channel">发送渠道:</label>
+    <select id="channel" name="channel">
+      <option value="wechat">微信</option>
+      <option value="mail">邮件</option>
+      <option value="sms">短信</option>
+    </select><br><br>
+    
+    <label for="password">密码:</label>
+    <input type="password" id="password" name="password"><br><br>
+    
+    <label for="token">发送给:</label>
+    <select id="token" name="token">
+      <option value="e9cbc9ec8bac467b92477ef3322c7c02">沈朱熠</option>
+      <option value="88by5y8nx4b53">妈妈</option>
+      <option value="88b29xnnx4b53">/</option>
+    </select><br><br>
+    
+    <input type="button" value="发送" onclick="sendMessage()"><br><br>
+    <label>标题限制：100字，字数限制：20000字</label><br>
+  </form>
 
-    <script>
-        function sendRequest() {
-            const inputText = document.getElementById('inputText').value;
-            if (inputText.length >= 3 && inputText.length <= 1000) {
-                const url = `https://www.pushplus.plus/send?token=4b92e83a62224468a8726f0ffdcfb44e&title=123&template=html&content=${encodeURIComponent(inputText)}`;
+  <script>
+    function sendMessage(){
+      var password = document.getElementById("password").value;
+      
+      if(password === "1237"){
+        var title = document.getElementById("title").value;
+        var text = document.getElementById("text").value;
+        var channel = document.getElementById("channel").value;
+        var token = document.getElementById("token").value;
+        var url = "https://www.pushplus.plus/send?token=" + token + "&title=" + encodeURIComponent(title) + "&content=" + encodeURIComponent(text) + "&channel=" + channel; 
+        window.location.href = url;
 
-                fetch(url)
-                    .then(response => response.json())
-                    .then(data => {
-                        document.getElementById('result').innerHTML = `消息已成功发送，返回参数参数：${data.msg}`;
-                    })
-                    .catch(error => {
-                        document.getElementById('result').innerHTML = `消息发送失败，返回参数参数：${data.msg}`;
-                    });
-            } else {
-                alert('限制为3-1000个字符哦');
-            }
-        }
-    </script>
-
+      } else {
+        alert("password wrong");
+      }
+    }
+  </script>
 </body>
 </html>
