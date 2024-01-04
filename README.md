@@ -12,12 +12,13 @@
 
 ***github：***
 
-主要存储库  [main.szy-szy.top/send.html](https://main.szy-szy.top/send.html)[发送消息]
+主要存储库  [main.szy-szy.top/send](https://main.szy-szy.top/send)[发送消息]
 
 szy存储库  [main.szy-szy.top/szy](https://main.szy-szy.top/szy)[随机图片]
 
-game存储库  [game.szy-szy.top/tank.html](https://game.szy-szy.top/tank.html)[坦克大战]
-[game.szy-szy.top/paint.html](https://game.szy-szy.top/paint.html)[画板]
+game存储库  [game.szy-szy.top/tank](https://game.szy-szy.top/tank)[坦克大战2.2]
+[game.szy-szy.top/paint](https://game.szy-szy.top/paint)[画板]
+[game.szy-szy.top/message](https://game.szy-szy.top/message)[消息]
 
 
 tools存储库  [main.szy-szy.top/tools/colourful-clock.html](https://main.szy-szy.top/tools/colourful-clock.html)[彩色网页时钟]
