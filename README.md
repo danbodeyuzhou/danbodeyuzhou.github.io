@@ -17,7 +17,7 @@
 szy存储库  [随机图片](https://main.szy-szy.top/szy)
 
 
-game存储库[前往](https://game.szy-szy.top/)
+game存储库 [前往](https://game.szy-szy.top/)
 
 
 tools存储库  [彩色网页时钟](https://main.szy-szy.top/tools/colourful-clock.html)
