@@ -16,9 +16,8 @@
 
 szy存储库  [main.szy-szy.top/szy](https://main.szy-szy.top/szy)[随机图片]
 
-game存储库  [game.szy-szy.top/tank](https://game.szy-szy.top/tank)[坦克大战2.2]
-[game.szy-szy.top/paint](https://game.szy-szy.top/paint)[画板]
-[game.szy-szy.top/message](https://game.szy-szy.top/message)[消息]
+
+game存储库[前往](https://game.szy-szy.top/)
 
 
 tools存储库  [main.szy-szy.top/tools/colourful-clock.html](https://main.szy-szy.top/tools/colourful-clock.html)[彩色网页时钟]
