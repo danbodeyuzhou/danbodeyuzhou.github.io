@@ -14,13 +14,13 @@
 
 主要存储库  [main.szy-szy.top/send](https://main.szy-szy.top/send)[发送消息]
 
-szy存储库  [main.szy-szy.top/szy](https://main.szy-szy.top/szy)[随机图片]
+szy存储库  [](https://main.szy-szy.top/szy)
 
 
 game存储库[前往](https://game.szy-szy.top/)
 
 
-tools存储库  [main.szy-szy.top/tools/colourful-clock.html](https://main.szy-szy.top/tools/colourful-clock.html)[彩色网页时钟]
+tools存储库  [彩色网页时钟](https://main.szy-szy.top/tools/colourful-clock.html)
 
 
 ***网页嵌入：***
