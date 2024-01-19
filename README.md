@@ -12,9 +12,9 @@
 
 ***github：***
 
-主要存储库  [main.szy-szy.top/send](https://main.szy-szy.top/send)[发送消息]
+主要存储库  [发送消息](https://main.szy-szy.top/send)
 
-szy存储库  [](https://main.szy-szy.top/szy)
+szy存储库  [随机图片](https://main.szy-szy.top/szy)
 
 
 game存储库[前往](https://game.szy-szy.top/)
