@@ -23,12 +23,12 @@ game存储库[前往](https://game.szy-szy.top/)
 tools存储库  [main.szy-szy.top/tools/colourful-clock.html](https://main.szy-szy.top/tools/colourful-clock.html)[彩色网页时钟]
 
 
-***网页嵌入***
+***网页嵌入：***
 
 office.szy-szy.top[onlyoffice]
 
 
-***worker api***
+***worker api：***
 
 fanyi.szy-szy.top[翻译]
 
