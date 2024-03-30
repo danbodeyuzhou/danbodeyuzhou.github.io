@@ -12,7 +12,6 @@ ChatGPT [chatgpt.szy-szy.top](https://chatgpt.szy-szy.top)
 
 ***github：***
 
-主要存储库  [发送消息](https://szy-szy.top/send)  
 szy存储库  [随机图片](https://szy-szy.top/szy)  
 game存储库 [前往](https://game.szy-szy.top/)  
 tools存储库  [彩色网页时钟](https://szy-szy.top/tools/colourful-clock.html)  
