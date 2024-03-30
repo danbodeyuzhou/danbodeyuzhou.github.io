@@ -12,4 +12,6 @@
 
 ## Scratch作品：
 
-* [更多](https://game.szy-szy.top)
+* [更多](https://game.szy-szy.top)  
+
+[更多](https://www.szy-szy.top/more)，由markdown编写
