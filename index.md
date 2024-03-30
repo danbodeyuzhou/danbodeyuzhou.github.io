@@ -3,24 +3,19 @@
 
 ***pages：***
 
-[chatgpt.szy-szy.top](https://chatgpt.szy-szy.top)[chatgpt]
+ChatGPT [chatgpt.szy-szy.top](https://chatgpt.szy-szy.top)
 
-[image.szy-szy.top](https://image.szy-szy.top)[图床]
+图床 [image.szy-szy.top](https://image.szy-szy.top)
 
-[url.szy-szy.top](https://url.szy-szy.top)[短链接生成]
+短链接生成 [url.szy-szy.top](https://url.szy-szy.top)
 
 
 ***github：***
 
-主要存储库  [发送消息](https://main.szy-szy.top/send)
-
-szy存储库  [随机图片](https://main.szy-szy.top/szy)
-
-
-game存储库 [前往](https://game.szy-szy.top/)
-
-
-tools存储库  [彩色网页时钟](https://main.szy-szy.top/tools/colourful-clock.html)
+主要存储库  [发送消息](https://szy-szy.top/send)  
+szy存储库  [随机图片](https://szy-szy.top/szy)  
+game存储库 [前往](https://game.szy-szy.top/)  
+tools存储库  [彩色网页时钟](https://szy-szy.top/tools/colourful-clock.html)  
 
 
 ***网页嵌入：***
