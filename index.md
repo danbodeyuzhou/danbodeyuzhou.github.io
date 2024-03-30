@@ -2,7 +2,7 @@
 <div style="text-align:right">——沈朱熠</div>
 
 # 一些项目
-## Pages：
+### Pages：
 
 * ChatGPT [chatgpt.szy-szy.top](https://chatgpt.szy-szy.top)  
 
@@ -11,7 +11,7 @@
 * 短链接生成 [url.szy-szy.top](https://url.szy-szy.top)  
 
 
-## Scratch作品：
+### Scratch作品：
 
 * [更多](https://game.szy-szy.top)  
 
