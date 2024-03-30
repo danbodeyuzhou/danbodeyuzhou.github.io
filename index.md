@@ -1,5 +1,6 @@
-这是一个基于github pages的个人页面~
-![img](https://picsum.photos/id/806/600/300)
+一个基于github pages的个人页面~
+<div style="text-align:right">——沈朱熠</div>
+
 # 一些项目
 ## Pages：
 
@@ -14,4 +15,4 @@
 
 * [更多](https://game.szy-szy.top)  
 
-[更多](https://www.szy-szy.top/more)，由markdown编写
+[更多](more)，由markdown编写
