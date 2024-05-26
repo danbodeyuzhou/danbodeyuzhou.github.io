@@ -1,7 +1,7 @@
 一个基于github pages的个人页面~
 <div style="text-align:right">——沈朱熠</div>
 
-# 一些项目
+# 一些东西
 ### Pages：
 
 * ChatGPT [chatgpt.szy-szy.top](https://chatgpt.szy-szy.top)  
