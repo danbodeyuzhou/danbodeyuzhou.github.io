@@ -1,5 +1,5 @@
 一个基于github pages的个人页面~
-<div style="text-align:right">——沈朱熠</div>
+<div style="text-align:right">——</div>
 
 # 一些东西
 ### Pages：
