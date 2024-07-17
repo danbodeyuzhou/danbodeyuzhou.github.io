@@ -2,8 +2,11 @@
 
 [前往主页](https://www.szy-szy.top/)
 
-## 编程&开发
+## 效率&学习
+[Notion](https://www.notion.so/shenzy)  
 
+[flomo笔记](flomo://create)
+## 编程&开发
 [Turbowarp](https://turbowarp.org/editor) 
  
 [Github主页](https://github.com/danbodeyuzhou/) 
@@ -18,10 +21,8 @@
 
 [文叔叔](https://www.wenshushu.cn)  
 
-[notion](https://www.notion.so/shenzy) 
-
 [Localsend-华为手机](https://192.168.31.199:53317/)  
   
-[Localsend-](https://192.168.31.1:53317/)  
+[Localsend-电脑](https://192.168.31.123:53317/)  
 
-[flomo笔记](flomo://create)
+
