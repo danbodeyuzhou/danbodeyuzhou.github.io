@@ -18,6 +18,10 @@
 
 [文叔叔](https://www.wenshushu.cn)  
 
+[notion](https://www.notion.so/shenzy) 
+
 [Localsend-华为手机](https://192.168.31.199:53317/)  
   
+[Localsend-](https://192.168.31.1:53317/)  
+
 [flomo笔记](flomo://create)
