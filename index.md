@@ -2,9 +2,10 @@
 <div style="text-align:right">——</div>
 
 # 网站搬家
-### Pages：
 即将转移到
-[szysite.com](https://szysite.com)  
+site.com](https://szysite.com)  
+
+### Pages：
 * 图床 [image.szysite.com](https://image.szysite.com)  
 
 * 短链接生成 [url.szysite.com](https://url.szysite.com) 
