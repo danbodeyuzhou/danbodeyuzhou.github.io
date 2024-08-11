@@ -2,8 +2,7 @@
 <div style="text-align:right">——</div>
 
 # 网站搬家
-即将转移到
-site.com](https://szysite.com)  
+##即将转移到[szysite.com](https://szysite.com)  
 
 ### Pages：
 * 图床 [image.szysite.com](https://image.szysite.com)  
