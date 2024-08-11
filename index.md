@@ -5,6 +5,6 @@
 ### Pages：
 即将转移到
 [szysite.com](https://szysite.com)  
-* 图床 [image.szy-szy.top](https://image.szy-szy.top)  
+* 图床 [image.szysite.com](https://image.szysite.com)  
 
-* 短链接生成 [url.szy-szy.top](https://url.szy-szy.top)  
+* 短链接生成 [url.szysite.com](https://url.szysite.com)  
