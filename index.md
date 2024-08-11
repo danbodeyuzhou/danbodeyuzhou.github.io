@@ -7,4 +7,6 @@
 [szysite.com](https://szysite.com)  
 * 图床 [image.szysite.com](https://image.szysite.com)  
 
-* 短链接生成 [url.szysite.com](https://url.szysite.com)  
+* 短链接生成 [url.szysite.com](https://url.szysite.com) 
+
+* scratch作品 [ide.szysite.com](https://ide.szysite.com) 
