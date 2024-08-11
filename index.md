@@ -3,7 +3,7 @@
 
 # 网站搬家
 # 即将转移到[szysite.com](https://szysite.com)  
-
+szy-szy.top将于10月停止
 ### Pages：
 * 图床 [image.szysite.com](https://image.szysite.com)  
 
