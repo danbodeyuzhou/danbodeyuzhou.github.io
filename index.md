@@ -9,4 +9,4 @@ szy-szy.top将于10月停止
 
 * 短链接生成 [url.szysite.com](https://url.szysite.com) 
 
-* scratch作品 [ide.szysite.com](https://ide.szysite.com) 
+* scratch作品 [creative.szysite.com](https://creative.szysite.com) 
