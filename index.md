@@ -7,6 +7,6 @@ szy-szy.top将于10月停止
 ### Pages：
 * 图床 [image.szysite.com](https://image.szysite.com)  
 
-* 短链接生成 [url.szysite.com](https://url.szysite.com) 
+* 短链接生成 [surl.szysite.com](https://surl.szysite.com) 
 
 * scratch作品 [creative.szysite.com](https://creative.szysite.com) 
