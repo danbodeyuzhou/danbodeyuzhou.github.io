@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>发送消息 | 沈朱熠</title>
+  <title>发送消息</title>
 </head>
 <body>
     <h1>发送消息</h1>
@@ -17,7 +17,7 @@
       <option value="wechat">微信</option>
       <option value="mail">邮件</option>
       <option value="sms">短信</option>
-      <option value="webhook&webhook=1">集简云</option>
+      <option value="webhook&webhook=1">webhook</option>
     </select><br><br>
     
     <label for="password">密码:</label>
@@ -25,27 +25,27 @@
     
     <label for="token">发送给:</label>
     <select id="token" name="token">
-      <option value="e9cbc9ec8bac467b92477ef3322c7c02">淡泊***</option>
-      <option value="3be56384305146b992ea964b6f3e3de5">*光</option>
-      <option value="4b92e83a62224468a8726f0ffdcfb44e">泓**开</option>
+      <option value="e9cbc9e7c02">***</option>
+      <option value="3be563e3de5">*</option>
+      <option value="4b92e83a44e">**</option>
     </select><br><br>
     
     <input type="button" value="发送" onclick="sendMessage()"><br><br>
     <label>标题限制：100字，字数限制：20000字</label><br>
-    <a href="https://danbodeyuzhou.github.io/list.html">使用提示</a>
-    <a href="https://danbodeyuzhou.github.io/return.html">集简云返回结果</a>
+    <a href="https://danbodeyuzhou.github.io/">使用提示</a>
+    <a href="https://danbodeyuzhou.github.io/">集简云返回结果</a>
   </form>
 
   <script>
     function sendMessage(){
       var password = document.getElementById("password").value;
       
-      if(password === "1237"){
+      if(password === "123"){
         var title = document.getElementById("title").value;
         var text = document.getElementById("text").value;
         var channel = document.getElementById("channel").value;
         var token = document.getElementById("token").value;
-        var url = "https://www.pushplus.plus/send?token=" + token + "&title=" + encodeURIComponent(title) + "&content=" + encodeURIComponent(text) + "&channel=" + channel; 
+        var url = "https://www.example.com/send?token=" + token + "&title=" + encodeURIComponent(title) + "&content=" + encodeURIComponent(text) + "&channel=" + channel; 
         window.location.href = url;
 
       } else {
